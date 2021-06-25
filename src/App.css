@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 @import url("https://fonts.googleapis.com/css?family=Kanit");
 
-
-
 .App {
   display: flex;
   flex-direction: column;
-  
   align-items: center;
   text-align: center;
   background-color: blue;
@@ -202,10 +199,10 @@ h2{
   align-items: center;
   font-size: 40px;
 }
+
 .gitContainer div:hover{
   background-color: rgb(199, 199, 199);
   border-radius: 10px;
-
 }
 
 .gitContainer p{
@@ -214,6 +211,7 @@ h2{
   width: 50%;
   display:inline-block;
 }
+
 a{
   color: black;
 }
@@ -226,13 +224,12 @@ a{
   align-items: center;
   width: 100%;
   font-size: 50px;
-  
 }
+
 .moreLink a{
   margin-left: 10px;
-  
   position: relative;
-  top: 5px;
+  top: 10px;
 }
 
 .pdf{

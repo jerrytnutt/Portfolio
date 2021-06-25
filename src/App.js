@@ -11,13 +11,13 @@ function App() {
     
     <Header/>
     <Switch>
-      <Route exact  path='/'>
+      <Route exact path='/'>
         <Home/>
 
       </Route>
     </Switch>
     <Switch>
-      <Route path='/about'>
+      <Route exact path='/about'>
         
       </Route>
     </Switch>
@@ -33,11 +33,8 @@ function App() {
         <Contact/>
         
       </Route>
-      
     </Switch>
-
     </BrowserRouter>    
   );
 }
-
 export default App;

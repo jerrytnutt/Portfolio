@@ -1,11 +1,4 @@
-//https://github.com/emmabostian/developer-portfolios
-//https://www.youtube.com/watch?v=NO7_jgzVgbc
-//https://jaik.me/pages/projects
-//https://www.resizepixel.com/
-//https://icons8.com/icons/set/javascript
-//https://icons8.com/icons/set/javascript
 import React, { useState, useEffect } from 'react';
-
 import {FaPython, FaHtml5, FaSass,FaGitAlt} from "react-icons/fa"
 import {SiJavascript} from "react-icons/si"
 import {GrReactjs} from "react-icons/gr"
@@ -20,7 +13,7 @@ const Home = (props) => {
       },5000)
       });
 
-    return ( 
+return ( 
   <div className='homeContainer'>
     <div className='image'>
       <div className="frame"></div>

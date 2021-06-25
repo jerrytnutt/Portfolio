@@ -5,22 +5,16 @@ import react from './images/react.png';
 import javascript from './images/javascript.png';
 import sass from './images/sass.png';
 import webpack from './images/webpack.png';
-import memorycardtwo from './images/memorycardtwo.png'
-import natsattwo from './images/natsattwo.png'
+import memorycard from './images/memorycard.png'
+import natsat from './images/natsat.png'
 import cvbuilder from './images/cvbuilder.png'
-import seafoodtwo from './images/seafoodtwo.png'
+import seafood from './images/seafood.png'
 import {debounce} from 'lodash'
 import batttleship from './images/battleship.png'
 import testing from './images/testing.png';
 import python from './images/python.png';
 import notepad from './images/notepad.png';
 
-// icons require links
-
-//<img src={currentMoon.img} alt='new' ></img> 
-//import img1 from '../images/callisto.jpg';
-//H 250 W 505
-// FIX CROPPING ON IMAGES
 const Projects = (props) => {
     const [displayMode,setDisplayMode] = useState('block')
     
@@ -32,7 +26,7 @@ const Projects = (props) => {
         }
         setDisplayMode('block') 
         },100)
-        
+
         window.addEventListener('resize', handleResize)
         });
       
@@ -58,7 +52,7 @@ const Projects = (props) => {
         </div>
 
        <div className='project'>
-         <img style={{display :displayMode}} className='photo' src={natsattwo} alt="Italian Trulli"></img>
+         <img style={{display :displayMode}} className='photo' src={natsat} alt="Italian Trulli"></img>
          <h2>Shopping Cart</h2>
          <div className='description'>
            An ecommerce shopping cart site. This project was created with ReactJS and takes advantage of React Hooks.
@@ -95,7 +89,7 @@ const Projects = (props) => {
         </div>
 
         <div className='project'>
-         <img style={{display :displayMode}} className='photo' src={memorycardtwo} alt="Italian Trulli"></img>
+         <img style={{display :displayMode}} className='photo' src={memorycard} alt="Italian Trulli"></img>
          <h2>Memory Card Game</h2>
          <div className='description'>
          Memory Game created with ReactJS, This project combines the use of hooks, state and functional components.
@@ -132,7 +126,7 @@ const Projects = (props) => {
         </div>
 
         <div className='project'>
-         <img style={{display :displayMode}} className='photo' src={seafoodtwo} alt="Italian Trulli"></img>
+         <img style={{display :displayMode}} className='photo' src={seafood} alt="Italian Trulli"></img>
          <h2>Restaurant Page</h2>
          <div className='description'>
          Restaurant Website Project part of the Odin Project curriculum. 

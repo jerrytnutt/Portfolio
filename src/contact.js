@@ -1,12 +1,10 @@
 import PDFfile from "./images/Jerry-Nutt.pdf"
-//flowcv.
-const Contact = () => {
-    return(
-<div className='pdf'>
-  <embed src={PDFfile} type="application/pdf" width="80%" height="600px" />
-</div>
-    );
 
-    
+const Contact = () => {
+  return(
+         <div className='pdf'>
+           <embed src={PDFfile} type="application/pdf" width="80%" height="600px" />
+         </div>
+    );  
 }
 export default Contact
