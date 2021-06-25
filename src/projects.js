@@ -32,13 +32,14 @@ const Projects = (props) => {
         }
         setDisplayMode('block') 
         },100)
+        
         window.addEventListener('resize', handleResize)
         });
       
     return ( 
     <div className='projectContainer'>
       <div className='project'>
-        <img style={{display :displayMode}} className='one' src={batttleship} alt="Italian Trulli"></img>
+        <img style={{display :displayMode}} className='photo' src={batttleship} alt="Italian Trulli"></img>
         <h2>Battleship</h2>
          <div className='description'>
            Battleship strategy game created with Javascript and tested with Jest.
@@ -57,7 +58,7 @@ const Projects = (props) => {
         </div>
 
        <div className='project'>
-         <img style={{display :displayMode}} className='one' src={natsattwo} alt="Italian Trulli"></img>
+         <img style={{display :displayMode}} className='photo' src={natsattwo} alt="Italian Trulli"></img>
          <h2>Shopping Cart</h2>
          <div className='description'>
            An ecommerce shopping cart site. This project was created with ReactJS and takes advantage of React Hooks.
@@ -76,7 +77,7 @@ const Projects = (props) => {
         </div>
 
         <div className='project'>
-         <img style={{display :displayMode}} className='one' src={notepad} alt="Italian Trulli"></img>
+         <img style={{display :displayMode}} className='photo' src={notepad} alt="Italian Trulli"></img>
          <h2>Notepad Tkinter Recreation</h2>
          <div className='description'>
            A complete recreation of Microsoft Notepad with Tkinter with all the features included.
@@ -94,7 +95,7 @@ const Projects = (props) => {
         </div>
 
         <div className='project'>
-         <img style={{display :displayMode}} className='one' src={memorycardtwo} alt="Italian Trulli"></img>
+         <img style={{display :displayMode}} className='photo' src={memorycardtwo} alt="Italian Trulli"></img>
          <h2>Memory Card Game</h2>
          <div className='description'>
          Memory Game created with ReactJS, This project combines the use of hooks, state and functional components.
@@ -113,7 +114,7 @@ const Projects = (props) => {
         </div>
 
         <div className='project'>
-         <img style={{display :displayMode}} className='one' src={cvbuilder} alt="Italian Trulli"></img>
+         <img style={{display :displayMode}} className='photo' src={cvbuilder} alt="Italian Trulli"></img>
          <h2>C.V Application</h2>
          <div className='description'>
          C.V Application created with ReactJS, application makes use of React's states, props and components.
@@ -131,7 +132,7 @@ const Projects = (props) => {
         </div>
 
         <div className='project'>
-         <img style={{display :displayMode}} className='one' src={seafoodtwo} alt="Italian Trulli"></img>
+         <img style={{display :displayMode}} className='photo' src={seafoodtwo} alt="Italian Trulli"></img>
          <h2>Restaurant Page</h2>
          <div className='description'>
          Restaurant Website Project part of the Odin Project curriculum. 
