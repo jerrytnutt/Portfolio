@@ -9,10 +9,11 @@ import memorycardtwo from './images/memorycardtwo.png'
 import natsattwo from './images/natsattwo.png'
 import cvbuilder from './images/cvbuilder.png'
 import seafoodtwo from './images/seafoodtwo.png'
-import _, {debounce} from 'lodash'
+import {debounce} from 'lodash'
 import batttleship from './images/battleship.png'
 import testing from './images/testing.png';
 import python from './images/python.png';
+import notepad from './images/notepad.png';
 
 // icons require links
 
@@ -74,7 +75,7 @@ const Projects = (props) => {
         </div>
 
         <div className='project'>
-         <img style={{display :displayMode}} className='one' src={batttleship} alt="Italian Trulli"></img>
+         <img style={{display :displayMode}} className='one' src={notepad} alt="Italian Trulli"></img>
          <h2>Notepad Tkinter Recreation</h2>
          <div className='description'>
            A complete recreation of Microsoft Notepad with Tkinter with all the features included.

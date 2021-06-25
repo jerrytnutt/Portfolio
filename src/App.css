@@ -167,6 +167,7 @@ h3 {
   font-family: "Varela Round";
   background-color: rgb(235, 235, 235);
 }
+
 .logo{
   width: 48px;
   height: 48px;
@@ -209,6 +210,11 @@ h2{
 .gitContainer div{
   align-items: center;
   font-size: 40px;
+}
+.gitContainer div:hover{
+  background-color: rgb(199, 199, 199);
+  border-radius: 10px;
+
 }
 
 .gitContainer p{
