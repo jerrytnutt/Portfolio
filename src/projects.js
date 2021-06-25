@@ -23,16 +23,17 @@ import notepad from './images/notepad.png';
 // FIX CROPPING ON IMAGES
 const Projects = (props) => {
     const [displayMode,setDisplayMode] = useState('block')
+    
     useEffect(() => {
       const handleResize = debounce(() => {
-      if (window.innerWidth < 1200){
-        return setDisplayMode('none')
+        if (window.innerWidth < 1200){
+          return setDisplayMode('none')
         
-          }
+        }
         setDisplayMode('block') 
-      },100)
-      window.addEventListener('resize', handleResize)
-      });
+        },100)
+        window.addEventListener('resize', handleResize)
+        });
       
     return ( 
     <div className='projectContainer'>
@@ -87,15 +88,10 @@ const Projects = (props) => {
          <div className='gitContainer'>  <div>
          <a href="https://github.com/jerrytnutt/Notepad-Tkinter-Recreation" target="_blank" rel="noreferrer"><FaGithub/><p>Github Repo</p></a></div>
          
-         <div><a href="https://github.com/jerrytnutt/Notepad-Tkinter-Recreation" target="_blank" rel="noreferrer"><BiLayout/><p>Live Demo</p></a></div> </div>
+         
+         </div>
 
         </div>
-
-
-
-
-
-
 
         <div className='project'>
          <img style={{display :displayMode}} className='one' src={memorycardtwo} alt="Italian Trulli"></img>
@@ -161,5 +157,4 @@ const Projects = (props) => {
     
     )
 }
-
 export default Projects

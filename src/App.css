@@ -43,21 +43,21 @@
 .linkContainer div:hover{
   background-color: black;
 }
+
 .homeContainer{
   margin:0px auto;
   width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 1px solid red;
 }
+
 .information,.image{
   height: 500px;
   padding: 20px;
- width: 40%;
-  
-  
+  width: 40%;
 }
+
 .frame{
   border-radius: 50%;
   height: 400px;
@@ -67,9 +67,8 @@
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
- 
-  
 }
+
 .information h1{
   font-family: "Varela Round";
   display: inline-block;
@@ -249,7 +248,8 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 80%;
-  background-color: red;
+  width: 90%;
+  background-color: #0e1118;
+  padding: 20px;
   align-items: center;
 }
