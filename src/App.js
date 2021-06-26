@@ -1,4 +1,4 @@
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import {HashRouter, Switch, Route} from 'react-router-dom'
 import Home from './home'
 import Header from './header'
 import Projects from './projects'
@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename='/'>
     
     <Header/>
     <Switch>
@@ -34,7 +34,7 @@ function App() {
         
       </Route>
     </Switch>
-    </BrowserRouter>    
+    </HashRouter>   
   );
 }
 export default App;
