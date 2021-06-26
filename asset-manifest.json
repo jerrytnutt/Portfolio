@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6268559c.chunk.css",
+    "main.js": "/portfolio/static/js/main.3d72cfdb.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3d72cfdb.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d17fb8e0.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d17fb8e0.js.map",
+    "static/js/2.8d2970b8.chunk.js": "/portfolio/static/js/2.8d2970b8.chunk.js",
+    "static/js/2.8d2970b8.chunk.js.map": "/portfolio/static/js/2.8d2970b8.chunk.js.map",
+    "static/js/3.dc9eb044.chunk.js": "/portfolio/static/js/3.dc9eb044.chunk.js",
+    "static/js/3.dc9eb044.chunk.js.map": "/portfolio/static/js/3.dc9eb044.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.6268559c.chunk.css.map": "/portfolio/static/css/main.6268559c.chunk.css.map",
+    "static/js/2.8d2970b8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8d2970b8.chunk.js.LICENSE.txt",
+    "static/media/Jerry-Nutt.0e6e3b16.pdf": "/portfolio/static/media/Jerry-Nutt.0e6e3b16.pdf",
+    "static/media/battleship.211c366e.png": "/portfolio/static/media/battleship.211c366e.png",
+    "static/media/cvbuilder.8dc7effc.png": "/portfolio/static/media/cvbuilder.8dc7effc.png",
+    "static/media/App.css": "/portfolio/static/media/jerry-face.29fb2980.jpg",
+    "static/media/memorycard.4f53cff0.png": "/portfolio/static/media/memorycard.4f53cff0.png",
+    "static/media/natsat.d1ec3330.png": "/portfolio/static/media/natsat.d1ec3330.png",
+    "static/media/seafood.0dd87c9d.png": "/portfolio/static/media/seafood.0dd87c9d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d17fb8e0.js",
+    "static/js/2.8d2970b8.chunk.js",
+    "static/css/main.6268559c.chunk.css",
+    "static/js/main.3d72cfdb.chunk.js"
+  ]
+}
