@@ -55,7 +55,7 @@ const Projects = (props) => {
          <img style={{display :displayMode}} className='photo' src={natsat} alt="Italian Trulli"></img>
          <h2>Shopping Cart</h2>
          <div className='description'>
-           An ecommerce shopping cart site. This project was created with ReactJS and takes advantage of React Hooks.
+           An ecommerce shopping cart site. Created with ReactJS and takes advantage of React Router for site navigation.
          </div>
          <div className='gitContainer'>
          <img className='logo' src={javascript} alt='new'></img>
@@ -74,7 +74,7 @@ const Projects = (props) => {
          <img style={{display :displayMode}} className='photo' src={notepad} alt="Italian Trulli"></img>
          <h2>Notepad Tkinter Recreation</h2>
          <div className='description'>
-           A complete recreation of Microsoft Notepad with Tkinter with all the features included.
+           A complete recreation of Microsoft Notepad useing Tkinter with original features included.
          </div>
          <div className='gitContainer'>
          <img className='logo' src={python} alt='new'></img>
@@ -129,8 +129,7 @@ const Projects = (props) => {
          <img style={{display :displayMode}} className='photo' src={seafood} alt="Italian Trulli"></img>
          <h2>Restaurant Page</h2>
          <div className='description'>
-         Restaurant Website Project part of the Odin Project curriculum. 
-         Created useing Webpack and ES6 Modules. 
+         Restaurant Website created with Webpack, ES6 Modules and a google maps API. 
          </div>
          <div className='gitContainer'>
          <img className='logo' src={javascript} alt='new'></img>
