@@ -25,10 +25,10 @@ return (
      <div className='iconContainer'>
       <div><div className='img'><FaHtml5/></div><p>HTML-5</p></div>
       <div><div className='img'><IoLogoCss3/></div><p>CSS-3</p></div>
-      <div><div className='img'><FaSass/></div><p>SASS</p></div>
       <div><div className='img'><SiJavascript/></div><p>JavaScript</p></div>
+      <div><div className='img'><FaSass/></div><p>SASS</p></div>
       <div><div className='img'><FaPython/></div><p>Python</p></div>
-      <div><div className='img'><GrReactjs/></div><p>ReactJS</p></div>
+      <div><div className='img'><GrReactjs/></div><p>React</p></div>
       <div><div className='img'><FaGitAlt/></div><p>Git</p></div>
      </div>
     </div>

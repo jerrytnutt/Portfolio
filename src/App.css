@@ -14,6 +14,7 @@
 .header{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   height: 70px;
@@ -25,14 +26,16 @@
 .linkContainer{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  
+  
+  justify-content: space-around;
 }
 
 .linkContainer div, .name{
   padding: 15px;
   color: white;
   text-align: center;
-  margin-right: 25px;
+  
   font-size: 35px;
   cursor: pointer;
 }
@@ -43,23 +46,28 @@
 
 .homeContainer{
   margin:0px auto;
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  
 }
 
-.information,.image{
+.information, .image{
   height: 500px;
   padding: 20px;
-  width: 40%;
+  width: 70%;
+ width: 450px;
+  
 }
 
 .frame{
   border-radius: 50%;
   height: 350px;
   width: 350px;
-  margin:0px auto;
+  
+  
   background-image: url(./images/jerry-face.jpg);
   background-position: center; 
   background-repeat: no-repeat; 
@@ -143,12 +151,12 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 90%;
 }
 
 .project{
   width: 35%;
   margin: 20px;
+  margin-right: 50px;
   border-radius: 5px;
   align-items: center;
   text-align: center;

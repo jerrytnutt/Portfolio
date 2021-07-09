@@ -1,4 +1,5 @@
 import {HashRouter, Switch, Route} from 'react-router-dom'
+import { useEffect } from 'react'
 import Home from './home'
 import Header from './header'
 import Projects from './projects'
@@ -6,6 +7,10 @@ import Contact from './contact'
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    
+    document.title = `Portfolio`;
+  });
   return (
     <HashRouter basename='/'>
     
