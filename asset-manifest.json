@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4d410405.chunk.css",
-    "main.js": "/Portfolio/static/js/main.1aa2f676.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.1aa2f676.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.64cf90b5.chunk.css",
+    "main.js": "/Portfolio/static/js/main.f3f24036.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f3f24036.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.d4d99e73.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d4d99e73.js.map",
-    "static/js/2.edd5f4fe.chunk.js": "/Portfolio/static/js/2.edd5f4fe.chunk.js",
-    "static/js/2.edd5f4fe.chunk.js.map": "/Portfolio/static/js/2.edd5f4fe.chunk.js.map",
+    "static/js/2.ead3f9f9.chunk.js": "/Portfolio/static/js/2.ead3f9f9.chunk.js",
+    "static/js/2.ead3f9f9.chunk.js.map": "/Portfolio/static/js/2.ead3f9f9.chunk.js.map",
     "static/js/3.dc9eb044.chunk.js": "/Portfolio/static/js/3.dc9eb044.chunk.js",
     "static/js/3.dc9eb044.chunk.js.map": "/Portfolio/static/js/3.dc9eb044.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.4d410405.chunk.css.map": "/Portfolio/static/css/main.4d410405.chunk.css.map",
-    "static/js/2.edd5f4fe.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.edd5f4fe.chunk.js.LICENSE.txt",
-    "static/media/Jerry-Nutt.09c0a08f.pdf": "/Portfolio/static/media/Jerry-Nutt.09c0a08f.pdf",
+    "static/css/main.64cf90b5.chunk.css.map": "/Portfolio/static/css/main.64cf90b5.chunk.css.map",
+    "static/js/2.ead3f9f9.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ead3f9f9.chunk.js.LICENSE.txt",
+    "static/media/Jerry-Nutt.77df15f3.pdf": "/Portfolio/static/media/Jerry-Nutt.77df15f3.pdf",
     "static/media/battleship.211c366e.png": "/Portfolio/static/media/battleship.211c366e.png",
     "static/media/cvbuilder.8dc7effc.png": "/Portfolio/static/media/cvbuilder.8dc7effc.png",
     "static/media/App.css": "/Portfolio/static/media/jerry-face.29fb2980.jpg",
     "static/media/memorycard.4f53cff0.png": "/Portfolio/static/media/memorycard.4f53cff0.png",
     "static/media/natsat.d1ec3330.png": "/Portfolio/static/media/natsat.d1ec3330.png",
-    "static/media/seafood.0dd87c9d.png": "/Portfolio/static/media/seafood.0dd87c9d.png"
+    "static/media/phototag.030e8865.png": "/Portfolio/static/media/phototag.030e8865.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d4d99e73.js",
-    "static/js/2.edd5f4fe.chunk.js",
-    "static/css/main.4d410405.chunk.css",
-    "static/js/main.1aa2f676.chunk.js"
+    "static/js/2.ead3f9f9.chunk.js",
+    "static/css/main.64cf90b5.chunk.css",
+    "static/js/main.f3f24036.chunk.js"
   ]
 }
