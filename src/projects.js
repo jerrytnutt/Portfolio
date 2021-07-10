@@ -4,11 +4,11 @@ import {BiLayout} from "react-icons/bi"
 import react from './images/react.png';
 import javascript from './images/javascript.png';
 import sass from './images/sass.png';
-import webpack from './images/webpack.png';
+import firebase from './images/firebase.png';
+import phototag from './images/phototag.png';
 import memorycard from './images/memorycard.png'
 import natsat from './images/natsat.png'
 import cvbuilder from './images/cvbuilder.png'
-import seafood from './images/seafood.png'
 import {debounce} from 'lodash'
 import batttleship from './images/battleship.png'
 import testing from './images/testing.png';
@@ -32,6 +32,24 @@ const Projects = (props) => {
       
     return ( 
     <div className='projectContainer'>
+
+      <div className='project'>
+         <img style={{display :displayMode}} className='photo' src={phototag} alt="Italian Trulli"></img>
+         <h2>Photo Tagging Web App</h2>
+         <div className='description'>
+         Photo tagging web app created with React. Uses Firebase realtime database to store and retrieve data and conduct server-side checks.
+         </div>
+         <div className='gitContainer'>
+         <img className='logo' src={react} alt='new' ></img>
+         <img className='logo' src={firebase} alt='new' ></img>
+         </div>
+         
+         <div className='gitContainer'>  <div>
+         <a href="https://github.com/jerrytnutt/Wheres-Waldo-photo-app" target="_blank" rel="noreferrer"><FaGithub/><p>Github Repo</p></a></div>
+         
+         <div><a href="https://jerrytnutt.github.io/Wheres-Waldo-photo-app/" target="_blank" rel="noreferrer"><BiLayout/><p>Live Demo</p></a></div> </div>
+
+        </div>
       <div className='project'>
         <img style={{display :displayMode}} className='photo' src={batttleship} alt="Italian Trulli"></img>
         <h2>Battleship</h2>
@@ -39,9 +57,8 @@ const Projects = (props) => {
            Battleship strategy game created with Javascript and tested with Jest.
          </div>
          <div className='gitContainer'>
-         <img className='logo' src={testing} alt='new'></img>
-         <img className='logo' src={javascript} alt='new'></img>
-         <img className='logo' src={react} alt='new' ></img>
+           <img className='logo' src={react} alt='new' ></img>
+           <img className='logo' src={testing} alt='new'></img>
          </div>
          
          <div className='gitContainer'>  <div>
@@ -58,7 +75,6 @@ const Projects = (props) => {
            An ecommerce shopping cart site. Created with ReactJS and takes advantage of React Router for site navigation.
          </div>
          <div className='gitContainer'>
-         <img className='logo' src={javascript} alt='new'></img>
          <img className='logo' src={react} alt='new' ></img>
          <img className='logo' src={sass} alt='new' ></img>
          </div>
@@ -95,7 +111,6 @@ const Projects = (props) => {
          Memory Game created with ReactJS, This project combines the use of hooks, state and functional components.
          </div>
          <div className='gitContainer'>
-         <img className='logo' src={javascript} alt='new'></img>
          <img className='logo' src={react} alt='new' ></img>
         
          </div>
@@ -114,7 +129,7 @@ const Projects = (props) => {
          C.V Application created with ReactJS, application makes use of React's states, props and components.
          </div>
          <div className='gitContainer'>
-         <img className='logo' src={javascript} alt='new'></img>
+
          <img className='logo' src={react} alt='new' ></img>
          </div>
          
@@ -125,23 +140,7 @@ const Projects = (props) => {
 
         </div>
 
-        <div className='project'>
-         <img style={{display :displayMode}} className='photo' src={seafood} alt="Italian Trulli"></img>
-         <h2>Restaurant Page</h2>
-         <div className='description'>
-         Restaurant Website created with Webpack, ES6 Modules and a google maps API. 
-         </div>
-         <div className='gitContainer'>
-         <img className='logo' src={javascript} alt='new'></img>
-         <img className='logo' src={webpack} alt='new' ></img>
-         </div>
-         
-         <div className='gitContainer'>  <div>
-         <a href="https://github.com/jerrytnutt/Restaurant-Page" target="_blank" rel="noreferrer"><FaGithub/><p>Github Repo</p></a></div>
-         
-         <div><a href="https://jerrytnutt.github.io/Restaurant-Page/" target="_blank" rel="noreferrer"><BiLayout/><p>Live Demo</p></a></div> </div>
-
-        </div>
+        
 
        <div className='project'>
          <div className="moreLink">

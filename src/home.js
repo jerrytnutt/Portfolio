@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {FaPython, FaHtml5, FaSass,FaGitAlt} from "react-icons/fa"
-import {SiJavascript} from "react-icons/si"
+import {SiJavascript,SiFirebase} from "react-icons/si"
 import {GrReactjs} from "react-icons/gr"
 import {IoLogoCss3} from "react-icons/io"
 
@@ -30,6 +30,7 @@ return (
       <div><div className='img'><FaPython/></div><p>Python</p></div>
       <div><div className='img'><GrReactjs/></div><p>React</p></div>
       <div><div className='img'><FaGitAlt/></div><p>Git</p></div>
+      <div><div className='img'><SiFirebase/></div><p>Firebase</p></div>
      </div>
     </div>
   </div>
