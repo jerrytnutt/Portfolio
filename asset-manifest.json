@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aa8bccfe.css",
+    "main.js": "/static/js/main.338b3736.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/jerry-face.jpg": "/static/media/jerry-face.29fb29805f729e5348ca.jpg",
+    "static/media/invoiceImg.png": "/static/media/invoiceImg.37f207f8d2e78b1ce638.png",
+    "static/media/kanbanImg.png": "/static/media/kanbanImg.2821d0a4683ca4920ac7.png",
+    "static/media/battleship.png": "/static/media/battleship.211c366e64587a689238.png",
+    "index.html": "/index.html",
+    "main.aa8bccfe.css.map": "/static/css/main.aa8bccfe.css.map",
+    "main.338b3736.js.map": "/static/js/main.338b3736.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa8bccfe.css",
+    "static/js/main.338b3736.js"
+  ]
+}
