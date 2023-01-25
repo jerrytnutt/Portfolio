@@ -7,7 +7,8 @@ import { IoLogoCss3 } from 'react-icons/io';
 import { FaGithub } from 'react-icons/fa';
 import { BiLayout } from 'react-icons/bi';
 import react from './images/react.png';
-//import sass from './images/sass.png';
+import kanbanImg from './images/kanbanImg.png';
+import invoiceImg from './images/invoiceImg.png';
 import firebase from './images/firebase.png';
 import batttleship from './images/battleship.png';
 import python from './images/python.png';
@@ -96,7 +97,7 @@ function App() {
           <img
             style={{ display: displayMode }}
             className="photo"
-            src={batttleship}
+            src={kanbanImg}
             alt="Italian Trulli"
           ></img>
           <h2>Kanban Task Manager</h2>
@@ -137,7 +138,7 @@ function App() {
           <img
             style={{ display: displayMode }}
             className="photo"
-            src={notepad}
+            src={invoiceImg}
             alt="Italian Trulli"
           ></img>
           <h2>Invoice</h2>
@@ -202,6 +203,39 @@ function App() {
                 <p>Github Repo</p>
               </a>
             </div>
+          </div>
+        </div>
+        <div className="project">
+          <img
+            style={{ display: displayMode }}
+            className="photo"
+            src={batttleship}
+            alt="Italian Trulli"
+          ></img>
+          <h2>Battleship</h2>
+          <div className="description">Battleship game recreation.</div>
+          <div className="gitContainer">
+            {' '}
+            <div>
+              <a
+                href="https://github.com/jerrytnutt/Battleship"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub />
+                <p>Github Repo</p>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://jerrytnutt.github.io/Battleship/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BiLayout />
+                <p>Live Demo</p>
+              </a>
+            </div>{' '}
           </div>
         </div>
 

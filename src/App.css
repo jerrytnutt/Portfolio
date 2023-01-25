@@ -12,42 +12,9 @@
   width: 100%;
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 70px;
-  width: 100%;
-  background-color: #0e1118;
-  margin-bottom: 50px;
-}
-
-.linkContainer {
-  display: flex;
-  flex-direction: row;
-
-  justify-content: space-around;
-}
-
-.linkContainer div,
-.name {
-  padding: 15px;
-  color: white;
-  text-align: center;
-
-  font-size: 35px;
-  cursor: pointer;
-}
-
-.linkContainer div:hover {
-  background-color: black;
-}
-
 .homeContainer {
   margin: 0px auto;
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -193,20 +160,15 @@ h3 {
   background-size: cover;
 }
 
-.photo:hover {
-  cursor: pointer;
-  opacity: 0.5;
-}
-
 h2 {
-  font-family: 'Kanit';
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 15px;
   font-size: 25px;
 }
 
 .description {
   font-size: 20px;
-  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 15px;
@@ -254,15 +216,4 @@ a {
   margin-left: 10px;
   position: relative;
   top: 10px;
-}
-
-.pdf {
-  margin: 0px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90%;
-  background-color: #0e1118;
-  padding: 20px;
-  align-items: center;
 }
